@@ -17,14 +17,14 @@ class Shoe
   end
   
   def material=(material)
-    @material= "suede"
+    @material= material
   end
   
   def condition=(condition)
     @condition = "tattered"
   end
   
-  def cobble
+  def cobble=()
     puts "Your shoe is as good as new!"
     @condition ="new"
   end
