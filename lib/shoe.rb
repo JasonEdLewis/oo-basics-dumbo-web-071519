@@ -55,8 +55,8 @@ class Shoe
   end
   
   
-  def cobble
-    @cobble
-  end
+  # def cobble
+  #   @cobble
+  # end
   
 end
