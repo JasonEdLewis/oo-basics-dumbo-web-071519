@@ -24,7 +24,7 @@ class Shoe
     @condition = "tattered"
   end
   
-  def cobble=(cobble)
+  def cobble
     puts "Your shoe is as good as new!"
     @condition ="new"
   end
